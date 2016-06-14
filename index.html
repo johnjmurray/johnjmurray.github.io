@@ -27,32 +27,7 @@
 						<h1>John Murray</h1>
 							<p>Fordham University</p>
 						</header>
-						<SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('index.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
+						
 						<!--
 						<hr />
 						<h2>Extra Stuff!</h2>
@@ -93,6 +68,7 @@ return " ";
 						<footer>
 							<ul class="icons">
 								<li><a href="https://www.linkedin.com/in/j2murray" class="fa-linkedin">LinkedIn</a></li>
+								<li><a href="Murray_resume.pdf" class="fa-file-text-o">Resume</a></li>
 							</ul>
 						</footer>
 					</section>
