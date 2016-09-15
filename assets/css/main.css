@@ -4,7 +4,6 @@ h2           { font-family: Tahoma; font-size: large;}
 pre          { font-family: georgia; font-size: 12pt}
 A:link       { color:"#003399"; text-decoration:none;}
 A:visited    { color:"#003399"; text-decoration:none}
-A:hover      { color: red; text-decoration: underline;}
 .headLeft    { font-family: Tahoma; font-size: large}
 .headRight   { font-family: arial; font-size: large}
 .indexAuthor { font-family: helvetica; font-size: large;}
