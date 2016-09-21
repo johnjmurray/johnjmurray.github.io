@@ -11,5 +11,5 @@ A:visited    { color:"#003399"; text-decoration:none}
 
 .div-with-bg
 {
-    background: color url('images/cover.jpg');
+    background: color url('http://johnjmurray.github.io/images/cover.jpg');
 }
