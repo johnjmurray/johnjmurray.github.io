@@ -8,3 +8,8 @@ A:visited    { color:"#003399"; text-decoration:none}
 .headRight   { font-family: arial; font-size: large}
 .indexAuthor { font-family: helvetica; font-size: large;}
 .indexTitle  { font-family: arial; font-size: medium}
+
+.div-with-bg
+{
+    background: color url('images/cover.jpg');
+}
