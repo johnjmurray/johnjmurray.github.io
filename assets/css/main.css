@@ -12,3 +12,7 @@ A:visited    { color:"#003399"; text-decoration:none}
 {
     background: color url('http://johnjmurray.github.io/images/cover.jpg');
 }
+
+.img {
+    vertical-align: middle;
+}
