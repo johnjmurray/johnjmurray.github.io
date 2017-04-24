@@ -1,2 +1,2 @@
 # johnjmurray.github.io
-Hello, World!
+My personal website and HTML/CSS sandbox. Comics updated whenever I feel sad!
