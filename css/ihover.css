@@ -79,8 +79,8 @@
 }
 
 .ih-item.circle.effect1 .spinner {
-  width: 230px;
-  height: 230px;
+  width: 40px;
+  height: 40px;
   border: 10px solid #ecab18;
   border-right-color: #1ad280;
   border-bottom-color: #1ad280;
@@ -2691,7 +2691,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.square.effect3 .info {
-  height: 33%;
+  height: 25px;
   background: #333333;
   opacity: 0;
   -webkit-transition: all 0.35s ease-in-out;
