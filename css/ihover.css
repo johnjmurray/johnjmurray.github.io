@@ -2691,7 +2691,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.square.effect3 .info {
-  height: 20px;
+  height: 33%;
   background: #333333;
   opacity: 0;
   -webkit-transition: all 0.35s ease-in-out;
