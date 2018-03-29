@@ -6789,10 +6789,10 @@ button.close {
 .ih-item.square.effect3 {
   overflow: hidden;
 }
-.ih-item.square.effect3.colored .info {
+.ih-item.square.effect3.colored .ihinfo {
   background: #1a4a72;
 }
-.ih-item.square.effect3 .img {
+.ih-item.square.effect3 .ihimg {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -6802,7 +6802,7 @@ button.close {
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-.ih-item.square.effect3 .info {
+.ih-item.square.effect3 .ihinfo {
   height: 25px;
   background: #333333;
   opacity: 0;
@@ -6810,7 +6810,7 @@ button.close {
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-.ih-item.square.effect3 .info h3 {
+.ih-item.square.effect3 .ihinfo h3 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -6818,7 +6818,7 @@ button.close {
   padding: 10px 10px 0 4px;
   margin: 4px 0 0 0;
 }
-.ih-item.square.effect3 .info p {
+.ih-item.square.effect3 .ihinfo p {
   font-style: italic;
   font-size: 12px;
   position: relative;
@@ -6826,12 +6826,12 @@ button.close {
   padding: 5px;
   text-align: center;
 }
-.ih-item.square.effect3 a:hover .info {
+.ih-item.square.effect3 a:hover .ihinfo {
   visibility: visible;
   opacity: 1;
 }
 
-.ih-item.square.effect3.bottom_to_top .info {
+.ih-item.square.effect3.bottom_to_top .ihinfo {
   top: auto;
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
@@ -6839,7 +6839,7 @@ button.close {
   -o-transform: translateY(100%);
   transform: translateY(100%);
 }
-.ih-item.square.effect3.bottom_to_top a:hover .img {
+.ih-item.square.effect3.bottom_to_top a:hover .ihimg {
   -webkit-transform: translateY(-25px);
   -moz-transform: translateY(-25px);
   -ms-transform: translateY(-25px);
