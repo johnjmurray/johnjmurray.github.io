@@ -6768,6 +6768,24 @@ button.close {
   min-height: 70px;
 }
 
+.ih-item.square {
+  position: relative;
+  width: auto;
+  height: auto;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 .ih-item.square.effect3 {
   overflow: hidden;
 }
