@@ -12,6 +12,14 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 	
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+	
 <body>
 <div class="container">
 	  <div class="row" height='60%'>
@@ -173,7 +181,7 @@
 					<h4>The University of Alabama</h4>
 					<ul>
 						<li>Expected December 2019</li>
-						<li>Completed coursework: <a href='courses/AEM508.pdf' target="_blank">Propulsion Systems</a>, Spacecraft Attitude Dynamics, Orbital Mechanics, Space Propulsion, Space Systems</li>
+						<li>Completed coursework: <a href='courses/AEM508.pdf' target="_blank">Propulsion Systems</a>, Spacecraft Attitude Dynamics, Orbital Mechanics, Space Propulsion, Space Systems, <a class="popup" onclick="myFunction()">Advanced Space Propulsion &amp; Power<span class="popuptext" id="myPopup">HW1<br>HW2</span></a></li>
 					</ul>
 					<br>
 				</div>
